@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificates - Shazim Javed</title>
+  <meta name="description" content="Professional certificates and achievements of Shazim Javed - Machine Learning Engineer & AI Developer">
+  <meta name="keywords" content="Certificates, Achievements, Machine Learning, AI, Professional Development">
+  <meta name="author" content="Shazim Javed">
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <header class="header" data-header role="banner">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="logo" aria-label="Shazim Javed - Home">
+          <span class="logo-text">SHAZIM JAVED</span>
+        </a>
+
+        <button class="nav-toggle-btn" aria-label="Toggle navigation menu" data-nav-toggle-btn aria-expanded="false">
+          <span class="hamburger">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+
+        <div class="navbar-menu" data-navbar-menu>
+          <ul class="navbar-list" role="menubar">
+            <li role="none">
+              <a href="index.html#home" class="navbar-link" data-nav-link role="menuitem">Home</a>
+            </li>
+            <li role="none">
+              <a href="index.html#about" class="navbar-link" data-nav-link role="menuitem">About</a>
+            </li>
+            <li role="none">
+              <a href="index.html#portfolio" class="navbar-link" data-nav-link role="menuitem">Portfolio</a>
+            </li>
+            <li role="none">
+              <a href="index.html#services" class="navbar-link" data-nav-link role="menuitem">Services</a>
+            </li>
+            <li role="none">
+              <a href="index.html#skills" class="navbar-link" data-nav-link role="menuitem">Skills</a>
+            </li>
+            <li role="none">
+              <a href="index.html#contact" class="navbar-link" data-nav-link role="menuitem">Contact</a>
+            </li>
+            <li role="none" class="navbar-cta">
+              <button class="btn btn-primary btn-cv" onclick="handleCVAction()" aria-label="Download CV">
+                <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                <span>Download Resume</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- Certificates Section -->
+      <section class="section certificates" id="certificates" role="region" aria-labelledby="certificates-heading">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Achievements</span>
+            <h2 id="certificates-heading" class="section-title">
+              My <span class="highlight-text">Certificates</span>
+            </h2>
+            <p class="section-description">
+              Professional certifications and achievements that validate my expertise
+            </p>
+          </div>
+
+          <div class="certificates-grid">
+            <!-- Certificate 1 -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img src="assets/images/Advance-Python-IBM.png" alt="Python Programming Certificate" loading="lazy">
+                <div class="certificate-overlay">
+                  <div class="certificate-actions">
+                    <button class="action-btn" onclick="downloadCertificate('Advance-Python-IBM.png')" aria-label="Download Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button>
+                    <!-- <button class="action-btn" onclick="openCertificate('ce-2.jpg')" aria-label="View Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+              <div class="certificate-content">
+                <h3 class="certificate-title">Python for DataScience & AI</h3>
+                <p class="certificate-issuer">IBM</p>
+                <p class="certificate-date">2023</p>
+                <p class="certificate-description">Comprehensive Python programming course covering data structures, algorithms, and web development</p>
+              </div>
+            </div>
+
+            <!-- Certificate 2 -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img src="assets/images/Machine_Learning.jpg" alt="Machine Learning Certificate" loading="lazy">
+                <div class="certificate-overlay">
+                  <div class="certificate-actions">
+                    <button class="action-btn" onclick="downloadCertificate('Machine_Learning.jpg')" aria-label="Download Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button>
+                    <!-- <button class="action-btn" onclick="openCertificate('ce-6.jpg')" aria-label="View Certificate">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+              <div class="certificate-content">
+                <h3 class="certificate-title">Machine Learning</h3>
+                <p class="certificate-issuer">Stanford University</p>
+                <p class="certificate-date">2024</p>
+                <p class="certificate-description">Advanced machine learning algorithms, neural networks, and deep learning applications</p>
+              </div>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img src="assets/images/DataScience.jpg" alt="Data Science Certificate" loading="lazy">
+                <div class="certificate-overlay">
+                  <div class="certificate-actions">
+                    <button class="action-btn" onclick="downloadCertificate('DataScience.jpg')" aria-label="Download Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button>
+                    <!-- <button class="action-btn" onclick="openCertificate('ce-1.jpg')" aria-label="View Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+              <div class="certificate-content">
+                <h3 class="certificate-title">Data Science</h3>
+                <p class="certificate-issuer">IBM</p>
+                <p class="certificate-date">2024</p>
+                <p class="certificate-description">Data analysis, visualization, and statistical modeling using Python and R</p>
+              </div>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img src="assets/images/Adnance_Algorithms.jpg" alt="Adnance Learning Algorithms Certificate" loading="lazy">
+                <div class="certificate-overlay">
+                  <div class="certificate-actions">
+                    <button class="action-btn" onclick="downloadCertificate('Adnance_Algorithms.jpg')" aria-label="Download Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button>
+                    <!-- <button class="action-btn" onclick="openCertificate('ce-3.jpg')" aria-label="View Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+              <div class="certificate-content">
+                <h3 class="certificate-title">Advance Learning Algorithms</h3>
+                <p class="certificate-issuer">Stanford University</p>
+                <p class="certificate-date">2025</p>
+                <p class="certificate-description">Advanced learning algorithms, neural networks, and deep learning applications</p>
+              </div>
+            </div>
+
+            <!-- Certificate 5 -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img src="assets/images/Ai_Fundamentals.jpg" alt="AI Fundamentals Certificate" loading="lazy">
+                <div class="certificate-overlay">
+                  <div class="certificate-actions">
+                    <button class="action-btn" onclick="downloadCertificate('Ai_Fundamentals.jpg')" aria-label="Download Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button>
+                    <!-- <button class="action-btn" onclick="openCertificate('ce-4.jpg')" aria-label="View Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+              <div class="certificate-content">
+                <h3 class="certificate-title">AI Fundamentals</h3>
+                <p class="certificate-issuer">DeepLearning.AI</p>
+                <p class="certificate-date">2024</p>
+                <p class="certificate-description">AI Fundamentals, machine learning, and neural networks</p>
+              </div>
+            </div>
+
+            <!-- Certificate 6 -->
+            <div class="certificate-card">
+              <div class="certificate-image">
+                <img src="assets/images/database.png" alt="SQL & DataScience Certificate" loading="lazy">
+                <div class="certificate-overlay">
+                  <div class="certificate-actions">
+                    <button class="action-btn" onclick="downloadCertificate('database.png')" aria-label="Download Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button>
+                    <!-- <button class="action-btn" onclick="openCertificate('ce-5.jpg')" aria-label="View Certificate">
+                      <ion-icon name="download-outline"></ion-icon>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+              <div class="certificate-content">
+                <h3 class="certificate-title">Database & SQL </h3>
+                <p class="certificate-issuer">IBM</p>
+                <p class="certificate-date">2023</p>
+                <p class="certificate-description">Construct basic to intermediate level SQL queries using DML commands</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+    </article>
+  </main>
+
+  <!-- Back to Top Button -->
+  <a href="#top" class="back-to-top" data-back-to-top aria-label="Back to top">
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- Certificate Modal -->
+  <div id="certificate-modal" class="certificate-modal" style="display: none;">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeCertificateModal()" aria-label="Close modal">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <img id="modal-certificate-image" src="" alt="Certificate" class="modal-image">
+    </div>
+  </div>
+
+  <script>
+    // Certificate functions
+    function openCertificate(imageSrc) {
+      const modal = document.getElementById('certificate-modal');
+      const modalImage = document.getElementById('modal-certificate-image');
+      modalImage.src = `assets/images/${imageSrc}`;
+      modal.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeCertificateModal() {
+      const modal = document.getElementById('certificate-modal');
+      modal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }
+
+    function downloadCertificate(imageSrc) {
+      // Create a temporary link element
+      const link = document.createElement('a');
+      link.href = `assets/images/${imageSrc}`;
+      link.download = imageSrc;
+      link.target = '_blank';
+      
+      // Append to body, click, and remove
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // Also try opening in new tab as fallback
+      setTimeout(() => {
+        window.open(`assets/images/${imageSrc}`, '_blank');
+      }, 100);
+    }
+
+    // Close modal on outside click
+    document.getElementById('certificate-modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeCertificateModal();
+      }
+    });
+
+    // Close modal on escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeCertificateModal();
+      }
+    });
+
+    // CV Download function
+    function handleCVAction() {
+      const link = document.createElement('a');
+      link.href = 'assets/files/Shazim_Javed_CV.pdf';
+      link.download = 'Shazim_Javed_CV.pdf';
+      link.click();
+    }
+
+    // Navbar functionality
+    const navToggleBtn = document.querySelector('[data-nav-toggle-btn]');
+    const navbarMenu = document.querySelector('[data-navbar-menu]');
+    const navbarLinks = document.querySelectorAll('[data-nav-link]');
+
+    navToggleBtn.addEventListener('click', function() {
+      navbarMenu.classList.toggle('active');
+      navToggleBtn.classList.toggle('active');
+      document.body.classList.toggle('nav-active');
+    });
+
+    // Close navbar when clicking on links
+    navbarLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        navbarMenu.classList.remove('active');
+        navToggleBtn.classList.remove('active');
+        document.body.classList.remove('nav-active');
+      });
+    });
+
+    // Back to top functionality
+    const backToTopBtn = document.querySelector('[data-back-to-top]');
+    const header = document.querySelector('[data-header]');
+
+    const backToTop = function () {
+      if (window.scrollY >= 100) {
+        header.classList.add('active');
+        backToTopBtn.classList.add('active');
+      } else {
+        header.classList.remove('active');
+        backToTopBtn.classList.remove('active');
+      }
+    }
+
+    window.addEventListener('scroll', backToTop);
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+
+  <!-- Ion Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
