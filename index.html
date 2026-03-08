@@ -1083,16 +1083,16 @@
   <script>
     // Initialize EmailJS v4
     (function(){
-        emailjs.init("VD-TLO6t-NZ72OuUY"); // Your Public Key
-        console.log("EmailJS v4 initialized with key:", "VD-TLO6t-NZ72OuY");
+        emailjs.init(""); // Your Public Key
+        console.log("EmailJS v4 initialized with key:", "");
     })();
     
     // Test function to verify EmailJS configuration
     window.testEmailJS = function() {
       console.log("Testing EmailJS v4 configuration...");
-      console.log("Service ID:", "service_n4j7jw1");
-      console.log("Template ID:", "template_yjyjirc");
-      console.log("Public Key:", "VD-TLO6t-NZ72OuUY");
+      console.log("Service ID:", "");
+      console.log("Template ID:", "");
+      console.log("Public Key:", "");
       
       // Test with minimal data
       const testData = {
@@ -1105,7 +1105,7 @@
       
       console.log("Sending test email with data:", testData);
       
-      emailjs.send("service_n4j7jw1", "template_yjyjirc", testData)
+      emailjs.send("", "", testData)
         .then((response) => {
           console.log("✅ Test email sent successfully:", response);
           alert("Test email sent successfully! Check your EmailJS dashboard.");
